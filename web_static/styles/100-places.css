@@ -1,0 +1,130 @@
+.places{
+    margin: 2em 0;
+    text-align: center;
+}
+.places h1{
+    font-size: 30px;
+    margin-left: 10px;
+    text-align: left;
+}
+
+.places article{
+    width: 390px;
+    padding: 20px;
+    margin: 30px;
+    border: 1px #ff5a5f solid;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+.place_name{
+    font-size: 30px;
+    text-align: center;
+}
+
+div.price_by_night{
+    color: #ff5a5f;
+    border: 4px #ff5a5f solid;
+    min-width: 60px;
+    width: 60px;
+    height: 60px;
+    font-size: 100%;
+    position: relative;
+    float: right;
+    top: -20px;
+    border-radius: 50%;
+    line-height: 50px;
+}
+
+.information{
+    height: 80px;
+    border-top: 1px solid #dddddd;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    padding: 1em 0;
+    width: 100%;
+}
+
+.max_guest{
+    background-image: url(/images/icon_group.png);
+}
+
+.number_rooms{
+    background-image: url(/images/icon_bed.png);
+}
+
+.number_bathrooms{
+    background-image: url(/images/icon_bath.png);
+}
+
+.max_guest, .number_bathrooms, .number_rooms{
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    line-height: 120px;
+    height: 100%;
+}
+
+
+div.user,
+div.description {
+  text-align: left;
+  margin-top: 1.5em;
+}
+
+.amenities{
+    margin-top: 40px;
+    text-align: left;
+}
+
+.amenities h2, .reviews h2{
+    font-size: 16px;
+    border-bottom: 1px #dddddd solid;
+    padding: 1em 0;
+
+    
+}
+
+.tv{
+    background-image: url(/images/icon_tv.png);
+}
+
+.wifi{
+    background-image: url(/images/icon_wifi.png);
+}
+
+.pets{
+    background-image: url(/images/icon_pets.png);
+}
+
+.tv, .wifi, .pets{
+    background-repeat: no-repeat;
+    background-size: 30px;
+    padding-left: 2.5em;
+    background-position: left center;
+    line-height: 40px;
+}
+
+.reviews{
+    text-align: left;
+    margin-top: 40px;
+}
+.reviews li h3{
+    font-size: 14px;
+    padding-top: 1em;
+}
+
+.reviews li p{
+    font-size: 12px;
+}
+
+@media (max-width: 600px){
+    .places h1{
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .container{
+        padding: 0 0.5em;
+    }
+}
